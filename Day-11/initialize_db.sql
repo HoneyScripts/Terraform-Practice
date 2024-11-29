@@ -22,13 +22,17 @@ CREATE TABLE orders (
 INSERT INTO users (name, email) VALUES
 ('Alice', 'alice@example.com'),
 ('Bob', 'bob@example.com'),
+('Charlie', 'charlie@example.com'),
+('Charlie', 'charlie@example.com'),
 ('Charlie', 'charlie@example.com');
 
 -- Insert sample data into orders table
 INSERT INTO orders (user_id, product_name, quantity) VALUES
 (1, 'Laptop', 1),
 (2, 'Smartphone', 2),
-(3, 'Headphones', 1);
+(3, 'Laptop', 1),
+(4, 'Smartphone', 2),
+(5, 'Headphones', 1);
 
 -- Verify data
 SELECT * FROM users;
