@@ -33,7 +33,7 @@ resource "aws_security_group" "rds_sg" {
 
 resource "aws_db_subnet_group" "rds_subnet_group" {
   name       = "rds-subnet-group"
-  subnet_ids = ["subnet-0e3adc5b842fd8f30","subnet-05d0d2af8e37ec6c2"]
+  subnet_ids = ["subnet-01682e9378145cc9e","subnet-0cacf8f994f1e734d"]
 }
 
 resource "null_resource" "db_initializer" {
